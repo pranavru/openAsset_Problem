@@ -1,0 +1,46 @@
+.postContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 2%;
+  padding: 2%;
+  border: 1px solid #000000;
+  text-align: center;
+}
+
+.titleText {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 550;
+}
+
+.bodyText {
+  font-size: 14px;
+  text-align: left;
+  flex: 0.9;
+}
+
+.commentsContainer {
+  background-color: rgba(211, 211, 211, 0.9);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 3%;
+  padding: 1%;
+}
+
+.commentTitleText {
+  text-align: start;
+  font-size: 14px; 
+  font-weight: 550;
+}
+
+.author {
+  font-size: 10px;
+  font-weight: lighter;
+  margin: 0px;
+  padding: 0px;
+}

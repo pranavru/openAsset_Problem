@@ -1,0 +1,30 @@
+.pageContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1%;
+  padding: 1%;
+}
+
+.endOfList {
+  text-align: center;
+  display: flex;
+  /* flex: 1; */
+}
+
+.pages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.pageDiv {
+  color: red;
+}
+
+button {
+  border: 1px solid #e5e5e5;
+  margin: 3px;
+  /* border: none; */
+  /* outline: none; */
+}
